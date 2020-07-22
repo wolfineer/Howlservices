@@ -1,0 +1,115 @@
+.content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1.2em;
+    min-width: 400px;
+    border-radius: 5px 5px  0 0 ;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15) ;
+    width: 100%;
+    height: 700px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10%;
+    
+    
+}
+.content-table .vendorImgs{
+    height: 300px;
+    width: 300px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    
+}
+.content-table th,
+.content-table td{
+        padding:12px 15px;
+        
+    }
+.content-table tbody td{
+    border-right: 1px solid #dddddd;
+}
+.content-table thead tr{
+    background-color: #009879;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+
+}
+
+.content-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+   
+}
+.content-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3  ;
+}
+.content-table tbody tr:last-of-type{
+    border-bottom: 2px solid #009879 ;
+    margin-bottom: 25%;
+}
+
+.nav-link:hover {
+    background: rgba(20, 68, 170, 0.445);
+    
+    transition: 1.5s;
+
+}
+.navbar {
+    margin-bottom: 5px;
+    background: rgba(39, 132, 238, 0.726);
+}
+.vendor {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-family: 'Source Sans Pro', sans-serif ;
+    font-weight: 800;
+
+}
+
+hr {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2)
+
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif ;
+    font-weight: 200;
+}
+.footer-copyright{
+    background-color: rgba(39, 132, 238, 0.726);}
+
+/* .btn {
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    color: black;
+} */
+/* #minusbutton {
+    background-color: chartreuse;
+    color: black;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    text-justify: auto;
+} */
+/* @media only screen and (max-width: 600px) {
+    .content-table th,
+    .content-table td{
+    padding:3px 5px !important;
+}
+    
+  }
+  @media only screen and (min-width:768px) {
+    .content-table th,
+    .content-table td{
+        padding:12px 15px;
+    }
+
+} */
+    
+
